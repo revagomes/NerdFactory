@@ -1,15 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.7'
+gem 'rails', '7.0.8.1'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Bundle the extra gems:
-gem 'devise'
+gem 'devise', '>= 1.3.4'
 gem 'will_paginate'
 gem 'paperclip'
 
 # Bundle gems for certain environments:
 group :test do
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 1.1.0'
   gem 'mocha', :require  => nil
 end
